@@ -1,0 +1,363 @@
+p {
+    line-height: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: orange;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body {
+    font-family: arial;
+    font-size: 100%;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
+    background: #27292d;
+}
+
+
+
+
+/* you can put your whole data in this page */
+
+#page {
+    margin: 20px;
+}
+
+
+
+
+/* logo */
+
+#logo {
+    width: 35%;
+    margin-top: 5px;
+    font-family: georgia;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    float: left;
+}
+
+
+
+
+/* header navigation */
+#nav1 {
+	width: 100%;
+    display: inline-block;
+    float: center;
+}
+
+#nav {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+#nav ul {}
+
+#nav ul li {
+    display: inline-block;
+    height: 62px;
+}
+
+#nav ul li a {
+    padding: 20px;
+    background: orange;
+    color: black;
+}
+
+#nav ul li a:hover {
+    background-color: #ffb424;
+    box-shadow: 0px 1px 1px #666;
+}
+
+#nav ul li a:active {
+    background-color: #ff8f00;
+}
+
+#content {
+    margin: 30px 0;
+    background: black;
+    padding: 20px;
+    clear: both;
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    background: #27292d;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 1px;
+}
+
+#footer p {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 100%;
+    color: orange;
+}
+
+#footer a {
+    font-size: 100%;
+    color: white;
+}
+
+
+
+/* multiple styles seperated by a , */
+
+#content,
+ul li a {
+    box-shadow: 0px 1px 1px #999;
+}
+
+
+
+/* Carousel styles starts from here */
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    margin-top: 26px;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked+.carousel-item {
+    position: static;
+    opacity: 100;
+    video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked~.control-1,
+#carousel-2:checked~.control-2,
+#carousel-3:checked~.control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+
+/*Carousel styles end here */
+
+
+/* used the google fonts */
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+
+
+/* For the use of 960 Framework */
+
+.grid_4 img {
+    height: 250px;
+    width: 300px;
+}
+
+
+section {
+
+    margin: auto;
+    padding-top: 20px;
+    float: left;
+}
+
+
+
+/* herounit implementation */
+
+.herounit {
+    background: #27292d; //padding: 10px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.herounit span {
+    font-size: 24px;
+}
+
+.herounit h1 {
+    font-size: 28px;
+}
+
+
+/*For the use of flex */
+
+.containerFlex {
+    display: flex;
+}
+
+.flex {
+    flex: 1;
+    margin: 8px 80px 8px 80px;
+}
+
+
+/*To make a hover on images */
+
+.box a {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box a ::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box a:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+}
+
+.box a:hover::after {
+    opacity: 1;
+}

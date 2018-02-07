@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- your webpage info goes here -->
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="css/Include/960.css">
+    <link rel="stylesheet" href="css/Include/Font-awesome.min.css">
+    <link rel="stylesheet" href="css/Include/googlefont.css">
+    <meta name="author" content="your name" />
+    <meta name="description" content="" />
+    <!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+    <!-- webpage content goes here in the body -->
+    <div id="page">
+    <header id="nav1" position="fixed">
+        <div id="logo" align="left">
+            <h1><img src="images/snapdragon_chip_new_0-iloveimg-cropped.png" width="30" height="30"><a href="/" id="logoLink"> Qualcome Snapdragon 845</a></h1>
+        </div><!-- For the logo-->
+        <div id="nav">
+            <ul>
+                <li><a href="#/home.html">Home</a></li>
+                <li><a href="#/about.html">About</a></li>
+                <li><a href="#/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </header><!--header navigation bar-->
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item">
+                    <img src="images/8xx-color_newbrand-iloveimg-cropped.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="images/Qualcomm-Snapdragon-845-Block.v1.cropped (2).png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item" align="center">
+                    <video width="1400" height="800" autoplay muted controls>
+                        <source src="videos/Qualcomm Snapdragon 845 Mobile Platform.mp4" type="video/mp4">
+                        <source src="videos/Qualcomm Snapdragon 845 Mobile Platform.ogg" type="video/ogg"> Your browser does not support the video tag.
+                    </video>
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div><!-- carousel ends here -->
+        <div id="content">
+            <section class="herounit">
+                <!--Hero unit having a quote and heading-->
+                <h1>Home</h1>
+                <span>Overview</span>
+            </section>
+            <!--Hero Unit Closed-->
+            <div class="container_12">
+                <!--Another container to store to vertical columns and 2nd column divided into 3 rows of sections-->
+                <section class="grid_6">
+                    <!--The first column just like every other column-->
+                    <h2>Introduction</h2>
+                    <img src="images/2.PNG" alt="Image Text" width="450" height="350">
+                    <p>
+                        Qualcomm today announced that its next flagship processor will be called the Snapdragon 845, the company said at its Snapdragon Tech Summit. The 845 is a direct successor to last year’s very popular Snapdragon 835, and it will likely bring improved performance, better power efficiency, and improved image processing. The Snapdragon 845 will likely be found in many high-end Android phones in 2018, though it is also expected to make its way to Windows 10 laptops as well.
+                        <hr> The next-generation mobile processor that you'll most likely find in many of next year's major flagships is here. At its second annual tech summit today, Qualcomm unveiled the Snapdragon 845, which is its latest "premium" mobile CPU. The chipset will retain the same 10nm footprint as its predecessor, but feature revamped architecture that brings about new features like 4K HDR video capture on smartphones and improved AI processing. That's in addition to the typical performance and power-consumption upgrades we see each year. Qualcomm said it's focusing on AI, immersion, security, connectivity and performance with the new chipset.
+                        <hr> The Snapdragon 845 boasts a new Kryo 385 CPU architecture and an upgraded Adreno 630 GPU. The chip is built on Samsung’s 10nm LPP FinFET, its second generation 10nm node that offers “10-percent higher performance or 15-percent lower power consumption compared to its first generation”. Just like last year, the Kryo 385 is “built on Arm Cortex technology“. In other words a customized off-the-shelf design from Arm, that Qualcomm says promises up to a 25 performance uplift compared with the last generation Snapdragon 835.
+                        <hr> Without divulging too much in the way of specs, Qualcomm SVP Alex Katouzian highlighted a few of the key focuses for the chip, including imaging/video processing, AI, VR/AR and battery life. In other words, precisely what one would expect from the next generation flagship chip from the company.
+                    </p>
+                </section>
+                <!--this section is showed as 3 article section -->
+                <section class="grid_6">
+                    <article class="grid_6">
+                        <h2>Kryo 385 CPU</h2>
+                        <!--Row 1 of column 2-->
+                        <p>
+                            The Kryo 385 gold/performance cluster runs at up to 2.8GHz, which is a 14% frequency increase over the 2.45GHz of the Snapdragon 835's CPU core. But we also have to remember that given that the new CPU cores are likely based on A75's we should be expecting IPC gains of up to 22-34% based on use-cases, bringing the overall expected performance improvement to 39-52%. Qualcomm promises a 25-30% increase which is at the low-end of ARM’s projections.
+                            <hr> The silver/efficiency cluster is running at 1.8GHz, this is clocked slightly slower than the A53's on the Snapdragon 835 however the maximum clocks of the efficiency cluster is mainly determined by where the efficiency curve of the performance cluster intersects. Nevertheless the efficiency cores promise 15% boost in performance compared to its predecessor.
+                        </p>
+                    </article>
+                    <!--Row 3 closed -->
+                    <article class="grid_6">
+                        <!--Row 2 of column 2-->
+                        <h2>Adrino 630 Video Processing Unit</h2>
+                        <p>
+                            The Snapdragon 845 comes with a new generation of the Adreno GPU, called the Adreno 630. The switch from a 5xx family to a 6xx family GPU, as with previous introductions from Qualcomm usually marks the transition consisting of larger architectural changes.
+                            <hr> Qualcomm is as usual very tight-lipped about details of its GPU but it promises a performance increase of 30% while also increasing power-efficiency by 30%. What this translates to is basically we're looking at 30% higher frame-rates while maintaining the same power consumption of the Snapdragon 835, which is an excellent improvement.
+                        </p>
+                    </article>
+                    <!--Row 3 closed -->
+                    <article class="grid_6">
+                        <!--Row 3 of column 2 -->
+                        <h2>System Cache</h2>
+                        <p>
+                            The L3 located on the DynamIQ DSU is configured at 2MB and we're likely seeing 256KB/128KB options for the performance and efficiency core private L2's. Together this would mean there's a total of 3.5MB of combined L2 and L3 cache on the CPU complex.
+                            <hr> This is surprising as DynamIQ allows finer grained frequency/voltage planes and given Qualcomm being traditionally a big proponent of asymmetric planes such as implemented in Krait I would have expected to see a more non-traditional approach, something that would have been facilitated given the fact that Qualcomm likes to include on-chip LDO regulators for powering the CPU clusters.
+                            <hr> Related to the caches but not part of the CPU, there's also a new inclusion of a 3MB system cache. This is likely a SoC interconnect cache and serves all SoC blocks - likely in similar fashion the "L3" cache on Apple A-series SoCs works. This would help reduce external memory transactions and thus also reduce power to the memory controllers and DRAM. Qualcomm claims it's able to reduce memory access bandwidth by up to 40-75%, a significant figure.
+                        </p>
+                    </article>
+                    <!--Row 3 closed -->
+                </section>
+                <!-- The Section of 3 articles is closed-->
+            </div>
+            <!--The container having 2 sections is closed-->
+            <div id="content">
+                <h2>Recommended For You</h2>
+                <div class="containerFlex">
+                    <!--A Container to store 3 sections where all sections occupy equal space using flexbox-->
+                    <section id="section1" class="flex">
+                        <!--Section 1 begins & covers a equal space-->
+                        <div class="box"><a href="http://www.bgr.in/news/xiaomi-mi-mix-2s-with-snapdragon-845-leaked/" target="_blank"><img src="images/xiaomi-mi-mix-2s-845-gallery-02.jpg" alt="Nostalgic Image" height="250px" width="400px"></a></div>
+                        <h3><a href="http://www.bgr.in/news/xiaomi-mi-mix-2s-with-snapdragon-845-leaked/" target="_blank">Xiaomi Mi MIX 2s with Snapdragon 845 leaked</a></h3>
+                        <!--Used for a Tagline of the heading-->
+                    </section>
+                    <!--Section 1 closed-->
+                    <section id="section2" class="flex">
+                        <!--Section 2 begins & covers a equal space-->
+                        <div class="box"><a href="hhttps://wccftech.com/qualcomm-snapdragon-850-5g-modem/" target="_blank"><img src="images/Snapdragon-740x493.png" alt="Party Image" height="250px" width="400px"></a></div>
+                        <h3><a href="https://wccftech.com/qualcomm-snapdragon-850-5g-modem/" v>Qualcomm Snapdragon 850 Rumored to Feature <br>the First Consumer-Based 5G Modem</a></h3>
+                        <!--Used for a Tagline of the heading-->
+                    </section>
+                    <!--Section 2 closed-->
+                    <section id="section3" class="flex">
+                        <!--Section 3 begins & covers the remaining equal space-->
+                        <div class="box"><a href="https://www.i4u.com/2018/02/127042/list-smartphones-featuring-snapdragon-845-2018-leaked" target="_blank"><img src="images/Qualcomm-Snapdragon-845-Opt.jpg" alt="Artistic Image" height="250px" width="400px"></a></div>
+                        <h3><a href="https://www.i4u.com/2018/02/127042/list-smartphones-featuring-snapdragon-845-2018-leaked" target="_blank">List of Smartphones featuring the Snapdragon 845 in 2018 leaked</a></h3>
+                        <!--Used for a Tagline of the heading-->
+                    </section>
+                    <!--Section 3 closed-->
+                </div>
+                <!--The Container is closed-->
+            </div>
+        </div>
+        <div id="footer">
+            <h2>Follow Us On 
+		<a href="#twitter" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href="#facebook" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="#linkedin" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		</h2><!-- Social Links Addes-->
+            <p>
+                Webpage made by <a href="/" target="_blank">[Abhishek Wadhwa]</a>
+            </p>
+        </div><!--For Copyright-->
+    </div><!--Page ends here-->
+</body>
+
+</html>
