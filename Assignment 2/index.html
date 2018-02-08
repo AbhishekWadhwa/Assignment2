@@ -22,9 +22,9 @@
         </div><!-- For the logo-->
         <div id="nav">
             <ul>
-                <li><a href="#/home.html">Home</a></li>
-                <li><a href="#/about.html">About</a></li>
-                <li><a href="#/contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Recommended For You">Recommended For You</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </div>
         </header><!--header navigation bar-->
@@ -40,32 +40,33 @@
                 </div>
                 <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
                 <div class="carousel-item" align="center">
-                    <video width="1400" height="800" autoplay muted controls>
+                    <video width="1400" height="800" controls>
                         <source src="videos/Qualcomm Snapdragon 845 Mobile Platform.mp4" type="video/mp4">
-                        <source src="videos/Qualcomm Snapdragon 845 Mobile Platform.ogg" type="video/ogg"> Your browser does not support the video tag.
+                        <source src="videos/Qualcomm Snapdragon 845 Mobile Platform.ogg" type="video/ogg"> 
+                        <source src="videos/videoplayback" type="video/webm">Your browser does not support the video tag.
                     </video>
                 </div>
-                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                <label for="carousel-2" class="carousel-control next control-1">›</label>
-                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                <label for="carousel-3" class="carousel-control next control-2">›</label>
-                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <label for="carousel-3" class="carousel-control prev control-1"><</label>
+                <label for="carousel-2" class="carousel-control next control-1">></label>
+                <label for="carousel-1" class="carousel-control prev control-2"><</label>
+                <label for="carousel-3" class="carousel-control next control-2">></label>
+                <label for="carousel-2" class="carousel-control prev control-3"><</label>
+                <label for="carousel-1" class="carousel-control next control-3">></label>
                 <ol class="carousel-indicators">
                     <li>
-                        <label for="carousel-1" class="carousel-bullet">•</label>
+                        <label for="carousel-1" class="carousel-bullet">.</label>
                     </li>
                     <li>
-                        <label for="carousel-2" class="carousel-bullet">•</label>
+                        <label for="carousel-2" class="carousel-bullet">.</label>
                     </li>
                     <li>
-                        <label for="carousel-3" class="carousel-bullet">•</label>
+                        <label for="carousel-3" class="carousel-bullet">.</label>
                     </li>
                 </ol>
             </div>
         </div><!-- carousel ends here -->
         <div id="content">
-            <section class="herounit">
+            <section class="herounit" id="home">
                 <!--Hero unit having a quote and heading-->
                 <h1>Home</h1>
                 <span>Overview</span>
@@ -86,6 +87,7 @@
                 </section>
                 <!--this section is showed as 3 article section -->
                 <section class="grid_6">
+                	<h2>Key Specs</h2>
                     <article class="grid_6">
                         <h2>Kryo 385 CPU</h2>
                         <!--Row 1 of column 2-->
@@ -120,7 +122,7 @@
             <!--The container having 2 sections is closed-->
             <div id="content">
                 <h2>Recommended For You</h2>
-                <div class="containerFlex">
+                <div class="containerFlex" id="Recommended For You">
                     <!--A Container to store 3 sections where all sections occupy equal space using flexbox-->
                     <section id="section1" class="flex">
                         <!--Section 1 begins & covers a equal space-->
@@ -132,7 +134,7 @@
                     <section id="section2" class="flex">
                         <!--Section 2 begins & covers a equal space-->
                         <div class="box"><a href="hhttps://wccftech.com/qualcomm-snapdragon-850-5g-modem/" target="_blank"><img src="images/Snapdragon-740x493.png" alt="Party Image" height="250px" width="400px"></a></div>
-                        <h3><a href="https://wccftech.com/qualcomm-snapdragon-850-5g-modem/" v>Qualcomm Snapdragon 850 Rumored to Feature <br>the First Consumer-Based 5G Modem</a></h3>
+                        <h3><a href="https://wccftech.com/qualcomm-snapdragon-850-5g-modem/" v>Qualcomm Snapdragon 850 Rumored to Feature the First Consumer-Based 5G Modem</a></h3>
                         <!--Used for a Tagline of the heading-->
                     </section>
                     <!--Section 2 closed-->
